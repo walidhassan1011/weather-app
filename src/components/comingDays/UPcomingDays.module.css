@@ -1,0 +1,11 @@
+.display {
+  width: 20%;
+  height: 100%;
+  margin: 10px;
+  /* background-color: aqua; */
+  text-align: center;
+  text-transform: none;
+  font-weight: bold;
+  font-size: 20px;
+  color: aliceblue;
+}

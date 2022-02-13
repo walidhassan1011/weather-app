@@ -1,0 +1,38 @@
+.stateOfday {
+  /* background-color: rgb(25, 0, 255); */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 60%;
+  margin-top: -10px;
+  border-radius: 20px 20px 20px 20px;
+}
+.otherDays {
+  border-radius: 20px;
+  padding: 10px;
+  /* margin: 10px; */
+  width: 80%;
+  height: 100%;
+}
+.stateofotherDays {
+  width: 100%;
+  background-color: #222831;
+
+  height: 40%;
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 20px 20px 20px 20px;
+}
+@media only screen and (max-width: 768px) {
+  .otherDays {
+    height: 60%;
+    width: 100%;
+  }
+  /* .stateOfday {
+    font-size: 10px;
+  } */
+}

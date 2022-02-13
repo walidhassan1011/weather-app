@@ -1,0 +1,27 @@
+.btnSearch {
+  display: block;
+  width: 200px;
+  margin-top: 10px;
+  border-radius: 30px;
+  outline: none;
+  border: none;
+  padding: 10px;
+  text-align: center;
+  color: black;
+  text-transform: capitalize;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+.searchInput {
+  width: 200px;
+  padding: 10px;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+
+  letter-spacing: 4px;
+}
+
+.searchInput:focus::placeholder {
+  color: transparent;
+}

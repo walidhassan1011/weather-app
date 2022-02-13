@@ -1,0 +1,93 @@
+.currentDay {
+  border-radius: 20px 20px 20px 20px;
+
+  width: 40%;
+
+  height: 100%;
+}
+.sameDay {
+  width: 100%;
+  height: 100%;
+  position: relative;
+
+  border-radius: 20px 20px 20px 20px;
+}
+.gradient {
+  border-radius: 20px 20px 20px 20px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #136a8a;
+  background: -webkit-linear-gradient(to right, #267871bb, #136a8aa9);
+  background: linear-gradient(to right, #267871b2, #136a8aa4);
+}
+.sameDay img {
+  width: 100%;
+  height: 100%;
+
+  z-index: 1;
+  display: block;
+  border-radius: 20px 20px 20px 20px;
+}
+.sameDay .details {
+  color: aliceblue;
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 800;
+  position: absolute;
+  top: 5%;
+  left: 10%;
+}
+.sameDay .details2 {
+  color: aliceblue;
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 800;
+  position: absolute;
+
+  top: 50%;
+  left: 2%;
+  width: 100%;
+  height: 100%;
+  /* background-color: black; */
+}
+.sameDay .details2 img {
+  width: 20%;
+  height: 20%;
+  margin-left: 20px;
+}
+.sameDay .details2 span {
+  display: block;
+  margin-left: 20px;
+  margin-top: -10px;
+}
+.sameDay .details2 h1 {
+  margin-top: -10px;
+  margin-left: 20px;
+}
+.sameDay .details span {
+  display: block;
+  margin-top: 10px;
+}
+@media only screen and (max-width: 768px) {
+  .currentDay {
+    height: 40%;
+    width: 100%;
+  }
+  .sameDay .details h1 {
+    font-size: 2rem;
+  }
+  .sameDay .details2 img {
+    width: 30%;
+    height: 30%;
+    margin-top: -30px;
+  }
+  .sameDay .details2 {
+    top: 40%;
+    left: 55%;
+    margin-bottom: 20px;
+    position: absolute;
+  }
+}

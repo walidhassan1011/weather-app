@@ -1,0 +1,9 @@
+.h1 {
+  text-align: center;
+  background-color: transparent;
+  font-weight: bolder;
+  text-decoration: none;
+  text-transform: capitalize;
+  margin-top: 3rem;
+  color: aliceblue;
+}
