@@ -9,7 +9,6 @@ function Search() {
   const onsubmit = (e) => {
     e.preventDefault();
     if (!location || location === "") return;
-    console.log(location);
 
     submitRequest(location);
   };

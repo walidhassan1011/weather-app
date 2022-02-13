@@ -19,6 +19,7 @@ function Card() {
           <div className={style.box2}>
             {!loading && <Header />}
             {error && <Error message={error} />}
+
             {loading && <Loader />}
             {!loading && <Search />}
           </div>

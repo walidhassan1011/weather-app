@@ -25,7 +25,7 @@ export function ForecastProvider({ children }) {
       setloading(false);
       return;
     }
-
+    seterror(false);
     return data;
   };
   const forcastLocation = async (woeid) => {
@@ -36,6 +36,7 @@ export function ForecastProvider({ children }) {
       setloading(false);
       return;
     }
+    seterror(false);
     return data;
   };
   const getForcast = (data) => {
@@ -48,6 +49,7 @@ export function ForecastProvider({ children }) {
     const comingDays = GetComingDays(data.consolidated_weather);
 
     setForecastData({ currentDAY, curentDayDetails, comingDays });
+    seterror(false);
     setloading(true);
   };
 
