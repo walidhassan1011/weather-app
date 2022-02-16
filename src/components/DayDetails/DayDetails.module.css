@@ -5,8 +5,6 @@
   height: 100%;
   border-radius: 20px;
   padding: 20px;
-
-  /* background-color: black; */
 }
 
 .main p {
@@ -31,5 +29,10 @@
   }
   .main {
     margin-top: 30px;
+  }
+}
+@media only screen and (min-width: 1023px) {
+  .main p {
+    font-size: 1.32rem;
   }
 }

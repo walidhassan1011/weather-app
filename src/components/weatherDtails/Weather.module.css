@@ -40,6 +40,9 @@
   top: 5%;
   left: 10%;
 }
+.sameDay .details h1 {
+  margin-left: -10px;
+}
 .sameDay .details2 {
   color: aliceblue;
   font-size: 20px;
@@ -56,6 +59,7 @@
 .sameDay .details2 img {
   width: 20%;
   height: 20%;
+
   margin-left: 20px;
 }
 .sameDay .details2 span {
@@ -65,6 +69,7 @@
 }
 .sameDay .details2 h1 {
   margin-top: -10px;
+
   margin-left: 20px;
 }
 .sameDay .details span {
@@ -94,5 +99,10 @@
     /* background-color: #136a8a; */
     margin-bottom: 20px;
     position: absolute;
+  }
+}
+@media only screen and (min-width: 1023px) {
+  .sameDay .details h1 {
+    font-size: 2rem;
   }
 }

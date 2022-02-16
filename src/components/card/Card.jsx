@@ -11,6 +11,7 @@ import Error from "../error/Error";
 
 function Card() {
   const { forecastData, toggle, loading, error } = UseForecast();
+  console.log(toggle);
 
   return (
     <>

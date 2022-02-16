@@ -9,3 +9,28 @@
   font-size: 20px;
   color: aliceblue;
 }
+
+@media only screen and (max-width: 768px) {
+  .display img {
+    width: 70%;
+  }
+  .display span {
+    display: block;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .display img {
+    width: 60%;
+  }
+  .display span {
+    display: block;
+  }
+}
+@media only screen and (min-width: 1023px) {
+  /* .display img {
+    width: 40%;
+  }
+  .display span {
+    display: block;
+  } */
+}
