@@ -33,3 +33,14 @@ with beautiful icons colors and simple design
 2-searching ![landing page](https://user-images.githubusercontent.com/95965261/154324135-7d1e4693-e65e-48e7-876f-87e9c4a6a69e.png)
 2-weather details ![landing page](https://user-images.githubusercontent.com/95965261/154324210-3be528b0-4308-4c95-8046-5b9af42904ad.png)
 
+## contact Me
+
+- [@twitter](https://twitter.com/Walidhassan111)
+- [@facebook](https://www.facebook.com/walid.hassan.10888938/)
+- [@linkedin](https://www.linkedin.com/in/walid-hassan-a744461a7)
+
+## take a look!!!!!!!!!!!!!!!
+
+## CLICK TO TAKE A LOOK [WEATHER APP](https://sw--weather--app.herokuapp.com/)
+
+
